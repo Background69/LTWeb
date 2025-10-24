@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Tahoma, Arial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a {
@@ -74,12 +74,52 @@ p {
 #section_normal_4_2 .omega {
     float: right;
     width: 50%;
-    margin-top: 85px;
+    margin-top: 90px;
 }
 
 #section_normal_4_2 .omega .big_title {
-    font-size: 57px;
+    font-size: 60px;
     color: white;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.bold_text {
+    font-weight: bold;
+}
+
+.normal_text {
+    font-size: 18px;
+    color: #737373;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.big_text {
+    font-size: 20px;
+
+}
+
+.blue_text {
+    color: #2dc0e8;
+}
+
+.pix_button {
+    padding: 12px 16px;
+    background-color: #2dc0e8;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    border-bottom: 4px solid #249aba;
+    transition: linear 1ms;
+}
+
+.pix_button:hover {
+    border: 0;
+    transform: translate(0, 3px);
+    background-color: #249aba;
 }
 
 #section_normal_6 .envato_unbounce .container {
@@ -89,6 +129,7 @@ p {
     row-gap: 40px;
     background-color: #eeeeee;
     padding: 40px 0;
+    margin-outside: 0;
 }
 
 .envato_unbounce .container .L_container {
@@ -197,41 +238,4 @@ p {
 .pixfort_st {
     color: #609d6c;
     font-weight: bold;
-}
-.bold_text {
-    font-weight: bold;
-}
-
-.normal_text {
-    font-size:21px;
-}
-
-.big_text {
-    font-size: 20px;
-}
-
-.light_gray {
-    color: lightgray
-}
-
-.blue_text {
-    color: #2dc0e8;
-}
-
-.pix_button {
-    padding: 12px 16px;
-    background-color: #2dc0e8;
-    display: inline-block;
-    text-decoration: none;
-    font-size: 15px;
-    color: white;
-    border-radius: 5px;
-    border-bottom: 4px solid #249aba;
-    transition: linear 1ms;
-}
-
-.pix_button:hover {
-    border: 0;
-    transform: translate(0, 3px);
-    background-color: #249aba;
 }
