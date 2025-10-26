@@ -122,6 +122,7 @@ p {
     background-color: #249aba;
 }
 
+
 #section_normal_6 .envato_unbounce .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -130,22 +131,24 @@ p {
     background-color: #eeeeee;
     padding: 40px 0;
     margin-outside: 0;
+    width: 100%;
 }
 
-.envato_unbounce .container .L_container {
+.envato_unbounce .container .L1_style , .envato_unbounce .container .L2_style{
     grid-column: 1/-1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    margin: 0;
 }
 
-.L_container .L1_style {
+.container .L1_style {
     color: #696969
 }
 
-.L_container .L2_style {
+.container .L2_style {
     color: #acacac
+
 }
 
 .eight.columns.stbox {
