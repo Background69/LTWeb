@@ -46,6 +46,10 @@ body {
     border-radius: 5px;
 }
 
+#section_text_2 .omega a:hover{
+    color: rgba(105, 83, 156, 0.29);
+}
+
 /* Section header */
 #section_header_1 {
     background-color: white;
@@ -65,7 +69,7 @@ body {
     color: var(--gray-text);
 }
 
-a.pi:link {
+a.pi {
     color: var(--gray-text);
     text-decoration: none;
     font-weight: bold;
@@ -74,8 +78,12 @@ a.pi:link {
     font-size: 20px;
 }
 
-a.pi:link:hover {
+a.pi:hover {
     color: var(--orange);
+}
+
+.containerss .right_socials {
+    margin-left: 590px;
 }
 
 .containerss ul.navbar-left {
@@ -84,13 +92,13 @@ a.pi:link:hover {
     list-style: none;
 }
 
-.containerss ul.navbar-left a:link{
+.containerss ul.navbar-left a{
     text-decoration: none;
     color: var(--gray-text);
     font-weight: bold;
 }
 
-.containerss ul.navbar-left a:link:hover{
+.containerss ul.navbar-left a:hover{
     color: var(--orange);
 }
 
@@ -263,6 +271,10 @@ ul.bottom-icons {
     color: white;
 }
 
+.one-third .link_3_btn a:hover {
+    color: rgba(105, 83, 156, 0.29);
+}
+
 /* Intro section */
 #section_intro_title {
     background-color: var(--gray);
@@ -321,6 +333,10 @@ ul.bottom-icons {
     font-weight: bold;
     color: white;
     border-radius: 2px;
+}
+
+#section_intro_title .one-third .btn_normal:hover {
+    color: rgba(105, 83, 156, 0.29);
 }
 
 #section_intro_title .one-third .btn_normal.blue_bg {
