@@ -12,7 +12,10 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #444;
+    background-color: #fff;
 }
 
 /* Section header */
@@ -35,21 +38,30 @@ body {
     align-items: center;
 }
 
+/* Nav-left */
+.navbar-toggle {
+    display: none;
+    background: none;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+}
+
 /* Nav-right */
 #section_header_2_dark nav #navbar-collapse-02 ul{
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 30px;
 }
 
-#navbar-collapse-02 ul a:link {
+#navbar-collapse-02 ul a {
     text-decoration: none;
     font-weight: 600;
     font-size: 18px;
     color: #cccccc;
 }
 
-#navbar-collapse-02 ul a:link:hover {
+#navbar-collapse-02 ul a:hover {
     color: var(--yellow);
 }
 
@@ -111,14 +123,14 @@ body {
     font-size: 18px;
 }
 
-#section_pix_4 #contact_form {
+#section_pix_4 #contact_form_1 {
     display: inline-block;
     padding: 15px 10px;
     background-color: rgba(0, 0, 0, 0.704);
     border-radius: 5px;
 }
 
-#section_pix_4 #contact_form #email {
+#section_pix_4 #contact_form_1 #email_1 {
     border: 0;
     padding: 7px 10px;
     border-radius: 5px;
@@ -126,11 +138,11 @@ body {
     margin-right: 10px;
 }
 
-#section_pix_4 #contact_form #email:focus {
+#section_pix_4 #contact_form_1 #email_1:focus {
     border: none;
 }
 
-#section_pix_4 #contact_form #subscribe_btn_1 {
+#section_pix_4 #contact_form_1 #subscribe_btn_1 {
     padding: 7px 10px;
     font-weight: bold;
     color: white;
@@ -141,9 +153,49 @@ body {
     border-radius: 5px;
 }
 
-#section_pix_4 #contact_form #subscribe_btn_1:hover {
+#section_pix_4 #contact_form_1 #subscribe_btn_1:hover {
     color: black;
     background-color: #ffb700
+}
+
+/* Confirm page */
+
+#hidden_pix_1 {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#hidden_pix_1 .confirm_logo img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#hidden_pix_1 .confirm_header .pix_text {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+#hidden_pix_1 .confirm_text .pix_text {
+    font-size: 13px;
+    color: #777;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.confirm_social_box {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: #555;
 }
 
 /* Section University */
@@ -158,8 +210,8 @@ body {
     display: flex;
     width: 900px;
     align-items: center;
-    gap: 20px;
     color: gray;
+    gap: 20px;
 }
 
 #section_university_5 .container .psingle_item {
@@ -170,8 +222,20 @@ body {
 
 #section_university_5 .container .psingle_item .title_st {
     font-size: 25px;
-    margin-bottom: 20px;
+    font-weight: normal;
     color: black;
+    margin: 0 0 8px;
+    line-height: 1.4;
+}
+
+#section_university_5 .container .psingle_item .subject_st {
+    font-size: 13px;
+    font-weight: normal;
+    color: #777;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 400px;
+
 }
 
 #section_university_5 .container .alpha .zone_left{
@@ -191,32 +255,104 @@ body {
     color: black;
 }
 
-#section_university_5 .container #contact_form {
+#section_university_5 .container #contact_form_2 {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
 }
 
-#section_university_5 .container #contact_form input {
+#section_university_5 .container #contact_form_2 input {
     padding: 15px 10px;
     border: 1px solid gray;
     border-radius: 2px;
 }
 
-#section_university_5 .container #contact_form select {
+#section_university_5 .container #contact_form_2 select {
     padding: 15px 10px;
     border: 1px solid gray;
     border-radius: 2px;
 }
 
 #submit_btn_6 {
-    background-color: #7cc576;
-    border: none;
-    padding: 15px 0;
-    color: white;
-    font-size: 18px;
-    border-radius: 4px;
+    width: 100%;
+    border: 0;
+    border-radius: 2px;
+    padding: 10px 12px;
+    font-size: 13px;
+    font-weight: 600;
     cursor: pointer;
+    background: #7abf5a;
+    color: #fff;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.submit_btn:hover {
+    filter: brightness(1.05);
+}
+
+/* Confirm page */
+#hidden_pix_6 {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#hidden_pix_6 .confirm_header .pix_text {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#hidden_pix_6 .confirm_text .pix_text {
+    font-size: 13px;
+    color: #777;
+    display: block;
+    margin-bottom: 25px;
+}
+
+#hidden_pix_6 .bottom-icons.confirm_icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+}
+
+#hidden_pix_6 .bottom-icons.confirm_icons li {
+    list-style: none;
+}
+
+#hidden_pix_6 .bottom-icons.confirm_icons li a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 2px;
+    background: #9a6565;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    color: #fff;
+}
+
+#hidden_pix_6 .bottom-icons.confirm_icons::after {
+    content: "• • •";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 12px;
+
+    font-size: 12px;
+    line-height: 1;
+    color: #333;
 }
 
 /* Footer section */
@@ -250,12 +386,12 @@ body {
     border-radius: 5px;
 }
 
-#section_ecourse_7 .sixteen.columns .bottom-icons a:link{
+#section_ecourse_7 .sixteen.columns .bottom-icons a{
     font-size: 20px;
     color: #bbbbbb;
 }
 
-#section_ecourse_7 .sixteen.columns .bottom-icons a:link:hover{
+#section_ecourse_7 .sixteen.columns .bottom-icons a:hover{
     color: var(--yellow);
 }
 
