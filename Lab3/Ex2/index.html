@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    <form action="">
+        <p class="form-title">CONTACT US</p>
+        <div class="input name">
+            <label for="full-name">FULL NAME *</label>
+            <input type="text" id="full-name" placeholder="Enter Your Name" required>
+        </div>
+        <div class="form-row email">
+            <div class="input">
+                <label for="email">EMAIL *</label>
+                <input type="email" id="email" placeholder="Enter Your Email" required>
+            </div>
+            <div class="input phone">
+                <label for="phone">PHONE</label>
+                <input type="text" id="phone" placeholder="Enter Number Phone">
+            </div>
+        </div>
+
+        <div class="input service">
+            <label for="services">NEEDED SERVICES *</label>
+            <select id="services" name="services" required>
+                <option value="">Please chooses</option>
+                <option value="web-design">Web Design</option>
+                <option value="web-development">Web Development</option>
+                <option value="mobile-app">Mobile App Development</option>
+                <option value="seo">SEO Services</option>
+                <option value="consulting">Consulting</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="input message">
+            <label for="message">MESSAGE</label>
+            <textarea id="message" name="message" placeholder="Your message here..."></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit</button>
+    </form>
+</main>
+</body>
+</html>
